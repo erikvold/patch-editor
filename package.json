@@ -1,0 +1,22 @@
+{
+  "name": "patch-editor",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "patch",
+    "diff"
+  ],
+  "author": "Erik Vold",
+  "license": "MPL v2.0",
+  "dependencies": {
+    "promise": "6.1.0"
+  },
+  "devDependencies": {
+    "chai": "2.1.1",
+    "mocha": "2.1.0"
+  },
+}
