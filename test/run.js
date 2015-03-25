@@ -10,7 +10,6 @@ var mocha = new Mocha({
   timeout: 900000
 });
 
-type = type || "";
 [
   require.resolve("./test.patches")
 ].sort().forEach(function(filepath) {
@@ -18,5 +17,5 @@ type = type || "";
 })
 
 mocha.run(function(failures) {
-  resolve(failures);
+  process.exit(failures);
 });

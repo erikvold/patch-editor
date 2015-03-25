@@ -1,0 +1,8 @@
+diff --git a/test/source/1.txt b/test/source/1.txt
+index 94954ab..95140e7 100644
+--- a/test/source/1.txt
++++ b/test/source/1.txt
+@@ -1,2 +1,2 @@
+ hello
+-world
++world!

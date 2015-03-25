@@ -1,0 +1,6 @@
+--- a/test/source/1.txt
++++ b/test/source/1.txt
+@@ -1,2 +1,2 @@
+ hello
+-world
++world!

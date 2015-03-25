@@ -1,10 +1,10 @@
 {
   "name": "patch-editor",
   "version": "0.0.1",
-  "description": "",
+  "description": "Tools for editing patches",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/run.js"
   },
   "keywords": [
     "patch",
@@ -18,5 +18,5 @@
   "devDependencies": {
     "chai": "2.1.1",
     "mocha": "2.1.0"
-  },
+  }
 }
